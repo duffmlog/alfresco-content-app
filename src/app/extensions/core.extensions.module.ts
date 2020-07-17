@@ -54,6 +54,7 @@ import { LanguagePickerComponent } from '../components/common/language-picker/la
 import { LogoutComponent } from '../components/common/logout/logout.component';
 import { CurrentUserComponent } from '../components/current-user/current-user.component';
 import { AppExtensionService, ExtensionsDataLoaderGuard } from '@alfresco/aca-shared';
+import { PreviewComponent } from '../components/preview/preview.component';
 
 export function setupExtensions(service: AppExtensionService): Function {
   return () => service.load();
